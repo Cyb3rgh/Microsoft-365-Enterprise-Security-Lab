@@ -1,4 +1,4 @@
-# Microsoft 365 Enterprise Administration & Security Lab
+﻿# Microsoft 365 Enterprise Administration & Security Lab
 
 ## Overview
 
@@ -36,19 +36,19 @@ The lab uses a cloud-native Microsoft 365 architecture centered around a Microso
 
 ### Core Components
 
-- **Microsoft Entra ID** â€” Identity and access management
-- **Microsoft Intune** â€” Endpoint enrollment, configuration, compliance, applications, and updates
-- **Conditional Access** â€” MFA and device-based access evaluation
-- **Microsoft Defender for Business** â€” Endpoint protection, EDR, firewall, alerting, and investigation
-- **Exchange Online** â€” Cloud email services
-- **OneDrive** â€” User cloud storage and file sharing
-- **SharePoint Online** â€” Corporate collaboration and permission management
-- **Microsoft Graph PowerShell** â€” Tenant inventory, reporting, and automation
-- **M365-CLIENT01** â€” Windows 11 Enterprise managed endpoint
+- **Microsoft Entra ID** — Identity and access management
+- **Microsoft Intune** — Endpoint enrollment, configuration, compliance, applications, and updates
+- **Conditional Access** — MFA and device-based access evaluation
+- **Microsoft Defender for Business** — Endpoint protection, EDR, firewall, alerting, and investigation
+- **Exchange Online** — Cloud email services
+- **OneDrive** — User cloud storage and file sharing
+- **SharePoint Online** — Corporate collaboration and permission management
+- **Microsoft Graph PowerShell** — Tenant inventory, reporting, and automation
+- **M365-CLIENT01** — Windows 11 Enterprise managed endpoint
 
 ### Security Lifecycle
 
-**Identity → Authentication → Enrollment → Configuration → Compliance → Conditional Access → Endpoint Protection → Detection → Investigation → Automation → Support**
+**Identity -> Authentication -> Enrollment -> Configuration -> Compliance -> Conditional Access -> Endpoint Protection -> Detection -> Investigation -> Automation -> Support**
 
 ---
 
@@ -163,9 +163,9 @@ The site was used to test group-based authorization.
 
 Permission model:
 
-- `SG-All-Employees` → Read
-- `SG-IT-Users` → Edit
-- Administrator → Full Control
+- `SG-All-Employees` -> Read
+- `SG-IT-Users` -> Edit
+- Administrator -> Full Control
 
 Permissions were validated using users from different departments.
 
@@ -338,7 +338,7 @@ The investigation showed:
 
 The resulting alert was reviewed and resolved as:
 
-**Informational / expected activity â€” Security testing**
+**Informational / expected activity — Security testing**
 
 This demonstrated the difference between signature-based malware detection and behavior-based endpoint detection.
 
@@ -567,8 +567,8 @@ with no noncompliant, pending, or error results.
 The Conditional Access policy list clearly distinguishes:
 
 - Microsoft-managed policies
-- `CA001-Require-MFA-Pilot` â€” **On**
-- `CA002-Require-Compliant-Device-Pilot` â€” **Report-only**
+- `CA001-Require-MFA-Pilot` — **On**
+- `CA002-Require-Compliant-Device-Pilot` — **Report-only**
 
 ---
 
@@ -613,36 +613,37 @@ The miscellaneous evidence includes supporting screenshots for:
 
 ```text
 Microsoft-365-Enterprise-Security-Lab/
-â”‚
-â”œâ”€â”€ README.md
-â”‚
-â”œâ”€â”€ diagrams/
-â”‚   â””â”€â”€ m365-security-lab-architecture.png
-â”‚
-â”œâ”€â”€ screenshots/
-â”‚   â”œâ”€â”€ 01-defender-eicar-investigation(1).png
-â”‚   â”œâ”€â”€ 02-defender-behavior-investigation.png
-â”‚   â”œâ”€â”€ 03-defender-device-onboarded(1).png
-â”‚   â”œâ”€â”€ 04-defender-device-onboarded(1).png
-â”‚   â”œâ”€â”€ 05-intune-managed-device(1).png
-â”‚   â”œâ”€â”€ 06-intune-compliance-policy(1).png
-â”‚   â”œâ”€â”€ 07-intune-compliance-policy(1).png
-â”‚   â”œâ”€â”€ 08-intune-security-baseline.png
-â”‚   â”œâ”€â”€ 09-conditional-access-policies.png
-â”‚   â”œâ”€â”€ 10b-graph-license-inventory.png
-â”‚   â”œâ”€â”€ 10c-groups.png
-â”‚   â””â”€â”€ misc/
-â”‚       â”œâ”€â”€ 01.png
-â”‚       â”œâ”€â”€ 02.png
-â”‚       â”œâ”€â”€ ...
-â”‚       â””â”€â”€ 20.png
-â”‚
-â”œâ”€â”€ scripts/
-â”‚   â””â”€â”€ M365-User-License-Report.ps1
-â”‚
-â””â”€â”€ reports/
-    â”œâ”€â”€ M365-User-License-Report.csv
-    â””â”€â”€ M365-Device-Inventory.csv
+|
+|-- README.md
+|-- .gitignore
+|
+|-- diagrams/
+|   `-- b8746575-9961-4dfd-9184-4979adb92e6b.png
+|
+|-- screenshots/
+|   |-- 01-defender-eicar-investigation.png
+|   |-- 02-defender-behavior-investigation.png
+|   |-- 03-defender-device-onboarded.png
+|   |-- 04-defender-device-onboarded.png
+|   |-- 05-intune-managed-device.png
+|   |-- 06-intune-compliance-policy.png
+|   |-- 07-intune-compliance-policy.png
+|   |-- 08-intune-security-baseline.png
+|   |-- 09-conditional-access-policies.png
+|   |-- 10b-graph-license-inventory.png
+|   |-- 10c-groups.png
+|   `-- misc/
+|       |-- 01.png
+|       |-- 02.png
+|       |-- ...
+|       `-- 20.png
+|
+|-- scripts/
+|   `-- M365-User-License-Report.ps1
+|
+`-- reports/
+    |-- M365-User-License-Report.csv
+    `-- M365-Device-Inventory.csv
 ```
 
 ---
@@ -680,9 +681,8 @@ Microsoft-365-Enterprise-Security-Lab/
 
 This project demonstrates the complete lifecycle of a Microsoft 365 cloud-managed endpoint:
 
-**Identity → Authentication → Enrollment → Configuration → Compliance → Conditional Access → Endpoint Protection → Detection → Investigation → Automation → IT Support**
+**Identity -> Authentication -> Enrollment -> Configuration -> Compliance -> Conditional Access -> Endpoint Protection -> Detection -> Investigation -> Automation -> IT Support**
 
 The lab combines Microsoft 365 administration, endpoint management, identity security, cybersecurity operations, PowerShell automation, and practical IT support workflows in one integrated cloud environment.
 
 The result is a hands-on enterprise lab demonstrating both **IT administration and cybersecurity operations** using technologies commonly encountered in modern Microsoft-based organizations.
-
