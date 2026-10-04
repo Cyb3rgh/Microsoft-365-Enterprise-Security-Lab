@@ -1,0 +1,21 @@
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+
+# PowerShell
+*.clixml
+
+# Secrets / credentials
+.env
+.env.*
+*.key
+*.pfx
+*.p12
+
+# Defender onboarding material
+*OnboardingPackage*
+WindowsDefenderATPLocalOnboardingScript.cmd

@@ -1,0 +1,3 @@
+DisplayName,OperatingSystem,OperatingSystemVersion,AccountEnabled,TrustType
+Cyb3rgh0st,Windows,10.0.26300.9550,TRUE,Workplace
+M365-CLIENT01,Windows,10.0.26200.8875,TRUE,AzureAd
