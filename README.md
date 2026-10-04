@@ -1,4 +1,4 @@
-﻿# Microsoft 365 Enterprise Administration & Security Lab
+# Microsoft 365 Enterprise Administration & Security Lab
 
 ## Overview
 
@@ -48,7 +48,7 @@ The lab uses a cloud-native Microsoft 365 architecture centered around a Microso
 
 ### Security Lifecycle
 
-**Identity â†’ Authentication â†’ Enrollment â†’ Configuration â†’ Compliance â†’ Conditional Access â†’ Endpoint Protection â†’ Detection â†’ Investigation â†’ Automation â†’ Support**
+**Identity → Authentication → Enrollment → Configuration → Compliance → Conditional Access → Endpoint Protection → Detection → Investigation → Automation → Support**
 
 ---
 
@@ -163,9 +163,9 @@ The site was used to test group-based authorization.
 
 Permission model:
 
-- `SG-All-Employees` â†’ Read
-- `SG-IT-Users` â†’ Edit
-- Administrator â†’ Full Control
+- `SG-All-Employees` → Read
+- `SG-IT-Users` → Edit
+- Administrator → Full Control
 
 Permissions were validated using users from different departments.
 
@@ -680,7 +680,7 @@ Microsoft-365-Enterprise-Security-Lab/
 
 This project demonstrates the complete lifecycle of a Microsoft 365 cloud-managed endpoint:
 
-**Identity â†’ Authentication â†’ Enrollment â†’ Configuration â†’ Compliance â†’ Conditional Access â†’ Endpoint Protection â†’ Detection â†’ Investigation â†’ Automation â†’ IT Support**
+**Identity → Authentication → Enrollment → Configuration → Compliance → Conditional Access → Endpoint Protection → Detection → Investigation → Automation → IT Support**
 
 The lab combines Microsoft 365 administration, endpoint management, identity security, cybersecurity operations, PowerShell automation, and practical IT support workflows in one integrated cloud environment.
 
